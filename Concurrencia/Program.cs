@@ -11,25 +11,23 @@ namespace Concurrencia
             var data = await Task.FromResult(100);
 
             var task1 = new Task(() => {
-                Thread.Sleep(1000);    
-                Console.WriteLine("Hola task 1"); 
+                Thread.Sleep(1000);
+                System.Console.WriteLine("Hola task 1");
             });
             task1.Start();
 
             var task2 = new Task(() => {
                 Thread.Sleep(1000);
-                Console.WriteLine("task 2");
+                System.Console.WriteLine("task 2");
             });
             task2.Start();
 
-            Console.WriteLine("Otro mensaje");
+            System.Console.WriteLine("Otro mensaje");
 
             await task1;
             await task2;
 
-
-
-            Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Hello World!");
 
             //task1.Wait();
         }
