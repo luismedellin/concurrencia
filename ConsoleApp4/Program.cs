@@ -80,46 +80,13 @@ namespace ConsoleApp4
             Console.WriteLine(message.Count == 0 ? "Yes" : "No");
         }
 
-        static int makeAnagram(string a, string b)
-        {
-            var letters = new Dictionary<char, int>();
-            foreach (var letter in a)
-            {
-                if (letters.ContainsKey(letter))
-                {
-                    letters[letter]++;
-                }
-                else
-                {
-                    letters.Add(letter, 1);
-                }
-            }
-
-            foreach (var letter in b)
-            {
-                if (letters.ContainsKey(letter))
-                {
-                    letters[letter]--;
-                }
-                else
-                {
-                    letters.Add(letter, -1);
-                }
-            }
-
-            var counter = 0;
-            foreach (var letter in letters)
-            {
-                var dif = Math.Abs(letter.Value);
-                counter += dif;
-            }
-
-            return counter;
-        }
+        
 
         static void Main(string[] args)
         {
-            makeAnagram("aaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
+            var result = MyAnagram.anagramDifference(new string[] { "tea", "tea", "act" }, new string[] { "ate", "toe", "acts" });
+
+            MyAnagram.makeAnagram("aaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
 
             checkMagazine(new string[] { "give", "me", "one", "grand", "today", "night" }, new string[] { "give", "one", "grand", "today" });
 
