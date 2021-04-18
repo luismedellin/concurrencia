@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{BEBFDCF6-3110-42B1-ABFE-78631BDFE396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrencia.Console.Tests", "Concurrencia.Console.Tests\Concurrencia.Console.Tests.csproj", "{A3E258B2-7048-4E49-8F92-D64682887632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concurrencia.Console.Tests", "Concurrencia.Console.Tests\Concurrencia.Console.Tests.csproj", "{A3E258B2-7048-4E49-8F92-D64682887632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensayo", "Ensayo\Ensayo.csproj", "{02462867-CBF0-4B22-928E-B179EBB4B1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{FED3877F-CB55-4F8C-AF1F-4285EAD5C53E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{A3E258B2-7048-4E49-8F92-D64682887632}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E258B2-7048-4E49-8F92-D64682887632}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E258B2-7048-4E49-8F92-D64682887632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02462867-CBF0-4B22-928E-B179EBB4B1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02462867-CBF0-4B22-928E-B179EBB4B1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02462867-CBF0-4B22-928E-B179EBB4B1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02462867-CBF0-4B22-928E-B179EBB4B1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED3877F-CB55-4F8C-AF1F-4285EAD5C53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED3877F-CB55-4F8C-AF1F-4285EAD5C53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED3877F-CB55-4F8C-AF1F-4285EAD5C53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED3877F-CB55-4F8C-AF1F-4285EAD5C53E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
